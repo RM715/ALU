@@ -1,0 +1,55 @@
+ISim log file
+Running: C:\Users\Joan\Downloads\Arquitectura-de-ordenadores-main\Arquitectura-de-ordenadores-main\alu\alu_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Joan/Downloads/Arquitectura-de-ordenadores-main/Arquitectura-de-ordenadores-main/alu/alu_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /alu/a 00000001 -radix bin
+# isim force add /alu/a 00000001 -radix bin
+# isim force add /alu/b 00000111 -radix bin
+# isim force add /alu/operacion 0010 -radix bin
+# run all
+# run all
+# show driver /alu/a
+/alu/a has no drivers.
+# show driver /alu/a
+/alu/a has no drivers.
+# isim force add /alu/a 00000001 -radix bin -cancel 1 ps
+# isim force add /alu/b 00000010 -radix bin -cancel 1 ps
+# isim force add /alu/b 00000010 -radix bin -cancel 1 ps
+# isim force add /alu/operacion 0010 -radix bin -cancel 1 ps
+# isim force add /alu/operacion 0010 -radix bin -cancel 1 ps
+# run all
+# isim force add /alu/a 00000001 -radix bin -cancel 1 ps
+# isim force add /alu/b 00000010 -radix bin -cancel 1 ps
+# isim force add /alu/operacion 0000 -radix bin -cancel 1 ps
+# isim force add /alu/operacion 0000 -radix bin -cancel 1 ps
+# run all
+# isim force add /alu/a 00000001 -radix bin -cancel 1 ps
+# isim force add /alu/b 00000010 -radix bin -cancel 1 ps
+# isim force add /alu/operacion 0001 -radix bin -cancel 1 ps
+# isim force add /alu/operacion 0001 -radix bin -cancel 1 ps
+# run all
+# isim force add /alu/a 00000001 -radix bin -cancel 1 ps
+# isim force add /alu/b 00000010 -radix bin -cancel 1 ps
+# isim force add /alu/operacion 0110 -radix bin -cancel 1 ps
+# isim force add /alu/operacion 0110 -radix bin -cancel 1 ps
+# run all
+# isim force add /alu/a 00000001 -radix bin
+# isim force add /alu/b 00000010 -radix bin -cancel 1 ps
+# isim force add /alu/a 00000001 -radix bin -cancel 1 ps
+# isim force add /alu/operacion 1010 -radix bin -cancel 1 ps
+# isim force add /alu/operacion 1010 -radix bin -cancel 1 ps
+# run all
+# isim force add /alu/a 00000001 -radix bin -cancel 1 ps
+# isim force add /alu/b 00000010 -radix bin -cancel 1 ps
+# isim force add /alu/operacion 1011 -radix bin -cancel 1 ps
+# isim force add /alu/operacion 1011 -radix bin -cancel 1 ps
+# run all

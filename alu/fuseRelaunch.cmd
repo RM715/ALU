@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Joan/Downloads/Arquitectura-de-ordenadores-main/Arquitectura-de-ordenadores-main/alu/alu_isim_beh.exe" -prj "C:/Users/Joan/Downloads/Arquitectura-de-ordenadores-main/Arquitectura-de-ordenadores-main/alu/alu_beh.prj" "work.alu" 

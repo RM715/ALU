@@ -1,0 +1,5 @@
+set -tmpdir "D:/circuitos/alu/xst/projnav.tmp"
+set -xsthdpdir "D:/circuitos/alu/xst"
+elaborate
+-ifn alu.prj
+-ifmt mixed
